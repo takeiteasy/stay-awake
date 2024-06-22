@@ -1,4 +1,4 @@
-/* stayawake (https://github.com/takeiteasy/tools) (Mac only)
+/* stayawake (https://github.com/takeiteasy/stay-awake) (Mac only)
  Description: Prevent sleep on Mac until exit
  Build: clang stayawake.c -framework IOKit -framework Foundation -o stayawake
  

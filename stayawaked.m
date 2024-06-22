@@ -1,4 +1,4 @@
-/* stayawaked (https://github.com/takeiteasy/tools) (Mac only)
+/* stayawaked (https://github.com/takeiteasy/stay-awake) (Mac only)
  
  Description:
  
