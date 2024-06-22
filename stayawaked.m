@@ -64,6 +64,7 @@ static struct option long_options[] = {
 
 static void usage(void) {
     puts("usage: stayawaked [options] &\n");
+    puts("  https://github.com/takeiteasy/stay-awake\n");
     puts("  Description:");
     puts("    Simple daemon to block sleep if certain programs are running.");
     puts("    Programs should be defined in a config file called \".stayawake.conf\"");
