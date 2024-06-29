@@ -2,9 +2,11 @@
 
 This is two tools to keep your computer (mac only) awake.
 
-### stayawaked.m
+### stayawakeif.m
 
 This is a daemon configured with a blacklist of programs that if running will prevent sleep. The config file should be called `.stayawake.conf` and it can be put either next to the binary or in your home directory. The path to the config file can also be passed through arguments, as can the sleep interval.
+
+The config file should be a list of program names or bundle IDs, and one App or Bundle ID per line. If any of the apps in the list are running, sleep will be blocked.
 
 ### stayawake.c
 

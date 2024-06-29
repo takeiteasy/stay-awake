@@ -1,11 +1,11 @@
 default: all
 
-all: stayawake stayawaked
+all: stayawake stayawakeif
 
 stayawake:
 	clang stayawake.c -framework IOKit -framework Foundation -o stayawake
 
-stayawaked:
-	clang stayawaked.m -framework Cocoa -framework IOKit -framework Foundation -o stayawaked
+stayawakeif:
+	clang stayawakeif.m -framework Cocoa -framework IOKit -framework Foundation -o stayawakeif
 
-.PHONY: default all stayawake stayawaked
+.PHONY: default all stayawake stayawakeif
